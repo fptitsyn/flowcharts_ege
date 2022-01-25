@@ -2,7 +2,7 @@ c = 3
 a = 2
 b = 10
 
-if b > a:
+while b > a:
     a += c
     b -= 1
     c += 1

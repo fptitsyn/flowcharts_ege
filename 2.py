@@ -1,11 +1,10 @@
 a = -3
 b = 8
 
-if a > b:
-    a = b
-else:
+while a <= b:
     a += 3
     b -= 1
+else:
+    a = b
 
 print(a)
-print(b)
